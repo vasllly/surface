@@ -1,4 +1,4 @@
-body, p {
+body, p, h1, h2 {
     margin: 0;
     font-family: 'OpenSans';
 }
@@ -19,7 +19,7 @@ header {
     position: relative;
     background-color: #1c2147;
     color: #ffffff;
-    padding: 30px 20px;
+    padding: 30px 20px 65px 20px;
 }
 
 .logo_text {
@@ -54,8 +54,8 @@ header {
     background-color: #5e42b0;
     font-size: 8px;
     text-transform: uppercase;
-    padding-left: 30%;
-    margin-bottom: 20px;
+    padding-left: 28.57%;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
@@ -71,4 +71,76 @@ header {
 
 .wrapper_button {
     margin-bottom: 10px;
+}
+
+.athlets {
+    position: absolute;
+    padding: 10px 0px;
+}
+h1 {
+    padding-left: 20px;
+    font-size: 50px;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+h2 {
+    display: inline;
+    font-size: 23px;
+    color: #c1c1c1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footballer_img {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.heading_wrapper{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px 15px 0px;
+}
+
+.rectangle {
+    display: block;
+    width: 15px;
+    height: 4px;
+    margin-top: 2px;
+    margin-right: 10px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+}
+
+.heading_prefix{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.section_connection {
+    z-index: 1;
+    background-color: #fafafa;
+    padding: 60px 20px;
+    margin-top: 225px;
+}
+
+.section_collaboration {
+    background-color: #f5f4f9;
+    padding: 60px 20px;
+}
+
+.section_growth {
+    position: relatve;
+    background-color: #5e42b0;
+    padding: 60px 20px;
+}
+
+.section_growth .rectangle {
+    background-color: #ffffff;
 }
