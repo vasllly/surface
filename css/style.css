@@ -81,6 +81,7 @@ header {
 }
 h1 {
     padding-left: 20px;
+    margin-bottom: 5px;
     font-size: 50px;
     color: #e7e7e7;
     text-transform: uppercase;
@@ -94,7 +95,7 @@ h2 {
     font-weight: bold;
 }
 
-.footballer_img {
+.footballer_img, .basketballer_img {
     position: absolute;
     display: block;
     left: 0;
@@ -129,19 +130,23 @@ h2 {
 .section_connection {
     z-index: 1;
     background-color: #fafafa;
-    padding: 60px 20px;
+    padding: 55px 20px 45px 20px;
     margin-top: 225px;
 }
 
 .section_collaboration {
     background-color: #f5f4f9;
-    padding: 60px 20px;
+    padding: 30px 20px 45px 20px;
 }
 
 .section_growth {
     position: relatve;
     background-color: #5e42b0;
-    padding: 60px 20px;
+    padding: 30px 20px 45px 20px;
+}
+
+.players .section_growth {
+    background-color: #090c35;
 }
 
 .section_growth .rectangle {
