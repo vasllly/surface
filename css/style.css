@@ -3,7 +3,7 @@
     font-family: 'OpenSans';
 }
 
-header::before {
+/* header::before {
     content: '';
     background-color: #1c2147;
     position: absolute;
@@ -13,42 +13,46 @@ header::before {
     width: 100%;
     height: 100%;
     z-index: -1;
-}
+} */
 
 header {
     position: relative;
-    background-image: url(../images/football_767.jpg);
+    /* background-image: url(../images/football_767.jpg); */
     background-color: #1c2147;
     background-size: cover;
     color: #ffffff;
-    padding: 30px 20px 65px 20px;
+    padding: 30px 20px 60px 20px;
     z-index: 1;
 }
 
 .logo_text {
     display: block;
-    padding-bottom: 30px;
-    height: 35px;
-    fill: #ffffff;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5px;
+    height: 35px;
+    fill: #ffffff;
 }
 
-.head_contener {
-    padding-top: 90px;
-    padding-bottom: 65px;
+.head_container {
+    padding-top: 130px;
+    /* padding-bottom: 50px; */
     font-weight: bold;
     font-size: 28px;
 }
 
 .head_text {
-    margin-top: 15px;
     margin-bottom: 15px;
     line-height: 1.25;
 }
 
 .head_text:nth-child(2) {
-    margin-left: 45px;
+    padding-left: 45px;
+}
+
+.store_container {
+    padding-top: 65px;
+    padding-bottom: 10px;
 }
 
 .store_botton {
