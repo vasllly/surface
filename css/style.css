@@ -149,6 +149,14 @@ h2 {
     background-color: #090c35;
 }
 
+.players .section_growth .heading_prefix {
+    color: #8765dd;
+}
+
+.section_growth p {
+    color: #ffffff;
+}
+
 .section_growth .rectangle {
     background-color: #ffffff;
 }
