@@ -82,7 +82,7 @@ header {
     font-weight: bold;
 }
 
-/* ---------------------ATHLETS-------------------------- */
+/* ---------------------ATHLETS/PLAYERS-------------------------- */
 
 h2 {
     padding-top: 13px;
@@ -167,4 +167,42 @@ h3 {
     background-color: #ffffff;
 }
 
-/* ---------------------PLAYERS-------------------------- */
+/* ---------------------be_active/find_contact/work_it-------------------------- */
+
+.be_active_img, .find_contact_img, .work_it_img {
+    width: 100%;
+}
+
+.heading_rectangle {
+    position: absolute;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    padding-top: 27px;
+    padding-left: 27px;
+    margin-left: 20px;
+    margin-top: -61px;
+    background-color: #5e42b0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f5f6f7;
+}
+
+.heading_rectangle .rectangle {
+    opacity: 0.3;
+    border-radius: 1.5px;
+    background-color: #ffffff;
+}
+
+.small_h2 {
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+.be_active p,
+.find_contact p,
+.work_it p {
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 15px 20px 75px 20px;
+}
