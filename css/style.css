@@ -64,9 +64,9 @@ header {
     border-radius: 20px;/* 40 */
     background-color: #5e42b0;
     text-transform: uppercase;
-    padding-left: 28.57%;
     margin-bottom: 14px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -76,6 +76,7 @@ header {
 }
 
 .store_text {
+    width: 90px;
     font-size: 8px;/* 14 */
     font-weight: 300;
 }
@@ -85,6 +86,10 @@ header {
 }
 
 /* ---------------------ATHLETS/PLAYERS-------------------------- */
+
+.athlets, .players {
+    position: relative;
+}
 
 h2 {
     padding-top: 13px;
@@ -108,7 +113,7 @@ h3 {
     display: block;
     left: 0;
     right: 0;
-    padding-top: 7px;
+    top: 80px;
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
@@ -175,6 +180,12 @@ h3 {
     width: 100%;
 }
 
+.be_active,
+.find_contact,
+.work_it {
+    position: relative;
+}
+
 .heading_rectangle {
     position: absolute;
     box-sizing: border-box;
@@ -182,7 +193,7 @@ h3 {
     height: 70px;
     padding-top: 27px;
     padding-left: 27px;
-    margin-left: 20px;
+    left: 20px;
     margin-top: -61px;
     background-color: #5e42b0;
     font-size: 14px;
@@ -304,7 +315,6 @@ footer .store_container {
         width: calc(50% - 15px);
         height: 77px;
         border-radius: 40px;
-        padding-left: 0px;
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
@@ -320,6 +330,7 @@ footer .store_container {
     }
 
     .store_text {
+        width: auto;
         font-size: 14px;
     }
 
@@ -328,6 +339,8 @@ footer .store_container {
     }
 
     /* ---------------------ATHLETS/PLAYERS-------------------------- */
+
+
 
     h2 {
         padding-top: 65px;
@@ -341,7 +354,7 @@ footer .store_container {
 
     .footballer_img {
         margin-left: 0px;
-        margin-top: -70px;
+        top: 94px;
         left: -162px;
     }
 
@@ -380,7 +393,7 @@ footer .store_container {
 
     .basketballer_img {
         margin-left: 0px;
-        margin-top: -130px;
+        top: 39px;
         left: calc(100% - 436px);
     }
 
@@ -397,7 +410,7 @@ footer .store_container {
         height: 116px;
         padding-top: 42px;
         padding-left: 44px;
-        margin-left: 33px;
+        left: 33px;
         margin-top: -90px;
         font-size: 24px;
     }
@@ -472,6 +485,7 @@ footer .store_container {
     }
 
     .head_text {
+        width: auto;
         font-size: 90px;
         padding-left: 10%;
     }
@@ -489,10 +503,9 @@ footer .store_container {
     }
 
     .store_botton {
-        width: 16.6%;
+        width: 311px;
         height: 77px;
         border-radius: 40px;
-        padding-left: 0px;
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
@@ -508,6 +521,7 @@ footer .store_container {
     }
 
     .store_text {
+        width: auto;
         font-size: 14px;
     }
 
@@ -528,8 +542,9 @@ footer .store_container {
     }
 
     .footballer_img {
-        margin-left: calc(50% - 566px);
-        margin-top: -160px;
+        margin-left: 0px;
+        left: calc(50% - 566px);
+        top: 27px;
     }
 
     .rectangle {
@@ -569,10 +584,10 @@ footer .store_container {
     }
 
     .basketballer_img {
+        width: 55vw;
         margin-left: 0px;
-        margin-right: 0px;
-        margin-top: -175px;
-        left: calc(100% - 991px - 125px);
+        top: -23px;
+        left: calc(50% - 10vw);
     }
 
     .players .section_connection,
@@ -586,7 +601,6 @@ footer .store_container {
     .be_active,
     .find_contact,
     .work_it {
-        width: 100%;
         display: flex;
         justify-content: center;
     }
@@ -605,7 +619,7 @@ footer .store_container {
         height: 155px;
         padding-top: 61px;
         padding-left: 70px;
-        margin-left: 0px;
+        left: calc(50% - 84px);
         margin-top: 211px;
         font-size: 24px;
     }
