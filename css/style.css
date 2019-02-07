@@ -603,6 +603,7 @@ footer .store_container {
     .work_it {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .find_contact {
@@ -615,12 +616,12 @@ footer .store_container {
     }
 
     .heading_rectangle {
-        width: 168px;
-        height: 155px;
-        padding-top: 61px;
-        padding-left: 70px;
-        left: calc(50% - 84px);
-        margin-top: 211px;
+        width: 8.75vw;
+        height: 8.75vw;
+        padding-top: 3.18vw;
+        padding-left: 3.65vw;
+        left: calc(50% - 4.37vw);
+        margin-top: -77px;
         font-size: 24px;
     }
 
@@ -630,15 +631,15 @@ footer .store_container {
 
     .small_h2 {
         font-size: 80px;
-        padding-top: 240px;
-        padding-left: 128px;
+        padding-top: 0px;
+        padding-left: 13.33%;
     }
 
     .block_wrapper p {
         font-size: 24px;
         line-height: 1.17;
         letter-spacing: 1.2px;
-        padding: 95px 190px 0px 125px;
+        padding: 10% 19% 5% 13.33%;
     }
 
     /* ---------------------footer-------------------------- */
