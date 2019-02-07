@@ -108,6 +108,14 @@ h3 {
     font-weight: bold;
 }
 
+.footballer_img {
+    width: 192px;
+}
+
+.basketballer_img {
+    width: 302px;
+}
+
 .footballer_img, .basketballer_img {
     position: absolute;
     display: block;
@@ -346,8 +354,6 @@ footer .store_container {
 
     /* ---------------------ATHLETS/PLAYERS-------------------------- */
 
-
-
     h2 {
         padding-top: 65px;
         padding-left: 290px;
@@ -359,6 +365,7 @@ footer .store_container {
     }
 
     .footballer_img {
+        width: 497px;
         margin-left: 0px;
         top: 94px;
         left: -162px;
@@ -398,6 +405,7 @@ footer .store_container {
     }
 
     .basketballer_img {
+        width: 436px;
         margin-left: 0px;
         top: 39px;
         left: calc(100% - 436px);
@@ -548,6 +556,7 @@ footer .store_container {
     }
 
     .footballer_img {
+        width: 566px;
         margin-left: 0px;
         left: calc(50% - 566px);
         top: 27px;
