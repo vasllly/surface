@@ -201,9 +201,7 @@ h3 {
     padding-top: 25px;
 }
 
-.be_active p,
-.find_contact p,
-.work_it p {
+.block_wrapper p {
     font-size: 16px;
     line-height: 1.25;
     padding: 15px 20px 75px 20px;
@@ -272,7 +270,7 @@ footer .store_container {
     padding-bottom: 35px;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 641px) and (max-width: 960px) {
 
     header {
         background-image: url(../images/football_1280.jpg);
@@ -401,6 +399,212 @@ footer .store_container {
         padding-left: 44px;
         margin-left: 33px;
         margin-top: -90px;
+        font-size: 24px;
+    }
+
+    .heading_rectangle .rectangle {
+        width: 28px;
+    }
+
+    .small_h2 {
+        font-size: 80px;
+        padding-top: 55px;
+        padding-left: 34px;
+    }
+
+    .block_wrapper p {
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: 1.2px;
+        padding: 20px 34px 105px 34px;
+    }
+
+    /* ---------------------footer-------------------------- */
+
+    footer {
+        background-image: url(../images/game_1280.jpg);
+        padding: 126px 0px 24px 0px;
+    }
+
+    .logo_wrapper {
+        width: 130px;
+        height: 137px;
+        border-radius: 30px;
+    }
+
+    .logo {
+        height: 90px;
+    }
+
+    .foot_container {
+        padding-top: 60px;
+    }
+
+    .foot_text {
+        font-size: 80px;
+    }
+
+    .under_foot_text {
+        font-size: 36.5px;
+        color: #a496ca;
+    }
+
+    footer .store_container {
+        padding-top: 280px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 961px) {
+
+    header {
+        background-image: url(../images/football_1920.jpg);
+    }
+
+    .logo_text {
+        padding-top: 45px;
+        height: 52px;
+    }
+
+    .head_container {
+        padding-top: 285px;
+        padding-left: 0px;
+    }
+
+    .head_text {
+        font-size: 90px;
+        padding-left: 10%;
+    }
+
+    .head_text:nth-child(2) {
+        padding-top: 0px;
+        margin-top: -17px;
+        padding-left: 33%;
+    }
+
+    .store_container {
+        padding: 200px 0px 110px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .store_botton {
+        width: 16.6%;
+        height: 77px;
+        border-radius: 40px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .store_botton:nth-child(2) {
+        margin-left: 50px;
+    }
+
+    .store_logo {
+        height: 45px;
+        margin-right: 28px;
+    }
+
+    .store_text {
+        font-size: 14px;
+    }
+
+    .store_text:nth-child(2) {
+        font-weight: bold;
+    }
+
+    /* ---------------------ATHLETS/PLAYERS-------------------------- */
+
+    h2 {
+        padding-top: 90px;
+        padding-left: calc(50% + 50px);
+        font-size: 80px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    .footballer_img {
+        margin-left: calc(50% - 566px);
+        margin-top: -160px;
+    }
+
+    .rectangle {
+        width: 21px;
+        height: 5px;
+        margin-top: 5px;
+        margin-right: 13px;
+    }
+
+    .heading_prefix{
+        font-size: 18px;
+    }
+
+    .section_connection {
+        background-color: #ffffff;
+        margin-top: 0px;
+    }
+
+    .section_connection,
+    .section_collaboration,
+    .section_growth {
+        padding: 80px 195px 45px calc(50% + 50px);
+    }
+
+    .section_connection p,
+    .section_collaboration p,
+    .section_growth p {
+        margin-top: -5px;
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 1px;
+
+    }
+
+    .players h2 {
+        padding-left: 10%;
+    }
+
+    .basketballer_img {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -175px;
+        left: calc(100% - 991px - 125px);
+    }
+
+    .players .section_connection,
+    .players .section_collaboration,
+    .players .section_growth {
+        padding: 80px 50% 55px 10%;
+    }
+
+    /* ---------------------be_active/find_contact/work_it-------------------------- */
+
+    .be_active,
+    .find_contact,
+    .work_it {
+        display: flex;
+    }
+
+    .find_contact {
+        flex-direction: row-reverse;
+    }
+
+    .image_wrapper,
+    .block_wrapper {
+        width: 50%;
+    }
+
+    .heading_rectangle {
+        width: 168px;
+        height: 155px;
+        padding-top: 61px;
+        padding-left: 70px;
+        margin-left: -84px;
+        margin-top: 211px;
         font-size: 24px;
     }
 
