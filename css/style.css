@@ -176,7 +176,13 @@ h3 {
 
 /* ---------------------be_active/find_contact/work_it-------------------------- */
 
+.image_wrapper {
+    min-height: 33vw;
+    background-color: #b3d5f0;
+}
+
 .be_active_img, .find_contact_img, .work_it_img {
+    display: block;
     width: 100%;
 }
 
