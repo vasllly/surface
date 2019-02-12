@@ -340,7 +340,7 @@ footer .store_container {
         justify-content: center;
     }
 
-    .store_botton:nth-child(2) {
+    .store_botton:nth-child(n+2) {
         margin-left: 30px;
     }
 
@@ -516,7 +516,7 @@ footer .store_container {
     }
 
     .store_container {
-        padding: 200px 0px 110px 0px;
+        padding: 200px 60px 110px 60px;
         display: flex;
         justify-content: center;
     }
@@ -534,7 +534,7 @@ footer .store_container {
         background-color: #7e42b0;
     }
 
-    .store_botton:nth-child(2) {
+    .store_botton:nth-child(n+2) {
         margin-left: 50px;
     }
 
