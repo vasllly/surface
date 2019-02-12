@@ -6,11 +6,6 @@
     letter-spacing: 0.8px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 /* ---------------------header-------------------------- */
 
 header::before {
@@ -66,6 +61,8 @@ h1 {
 }
 
 .store_botton {
+    color: white;
+    text-decoration: none;
     height: 35px;/* 77 */
     border-radius: 20px;/* 40 */
     background-color: #5e42b0;
@@ -97,7 +94,8 @@ h1 {
     position: relative;
 }
 
-h2 {
+.athlets_head,
+.players_head {
     padding-top: 13px;
     padding-left: 20px;
     font-size: 50px;/* 80 */
@@ -106,7 +104,9 @@ h2 {
     font-weight: bold;
 }
 
-h3 {
+.connection_head,
+.collaboration_head,
+.growth_head {
     display: inline;
     font-size: 23px;
     color: #c1c1c1;
@@ -366,13 +366,16 @@ footer .store_container {
 
     /* ---------------------ATHLETS/PLAYERS-------------------------- */
 
-    h2 {
+    .athlets_head,
+    .players_head {
         padding-top: 65px;
         padding-left: 290px;
         font-size: 80px;
     }
 
-    h3 {
+    .connection_head,
+    .collaboration_head,
+    .growth_head {
         font-size: 32px;
     }
 
@@ -562,13 +565,16 @@ footer .store_container {
 
     /* ---------------------ATHLETS/PLAYERS-------------------------- */
 
-    h2 {
+    .athlets_head,
+    .players_head {
         padding-top: 90px;
         padding-left: calc(50% + 50px);
         font-size: 80px;
     }
 
-    h3 {
+    .connection_head,
+    .collaboration_head,
+    .growth_head {
         font-size: 36px;
     }
 
@@ -611,7 +617,7 @@ footer .store_container {
 
     }
 
-    .players h2 {
+    .players_head {
         padding-left: 10%;
     }
 
