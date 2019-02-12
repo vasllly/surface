@@ -284,14 +284,16 @@ footer {
     padding-top: 50px;
 }
 
-.foot_text {
+.foot_head {
     font-size: 32px;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    padding: 0px;
 }
 
-.under_foot_text {
+.under_foot_head_text {
     padding-top: 3px;
     font-size: 14px;
     letter-spacing: 0.7px;
@@ -479,11 +481,11 @@ footer .store_container {
         padding-top: 60px;
     }
 
-    .foot_text {
+    .foot_head {
         font-size: 80px;
     }
 
-    .under_foot_text {
+    .under_foot_head_text {
         font-size: 36.5px;
         color: #a496ca;
     }
@@ -704,11 +706,11 @@ footer .store_container {
         padding-left: 37px;
     }
 
-    .foot_text {
+    .foot_head {
         font-size: 80px;
     }
 
-    .under_foot_text {
+    .under_foot_head_text {
         font-size: 30px;
         color: #a496ca;
         text-align: left;
