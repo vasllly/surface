@@ -227,15 +227,19 @@ h3 {
     background-color: #ffffff;
 }
 
+.block_wrapper {
+    padding: 25px 20px 75px 20px;
+}
+
 .small_h2 {
     font-size: 28px;
-    padding-top: 25px;
+    padding: 0px;
 }
 
 .block_wrapper p {
     font-size: 16px;
     line-height: 1.25;
-    padding: 15px 20px 75px 20px;
+    padding-top: 15px;
 }
 
 /* ---------------------footer-------------------------- */
@@ -439,17 +443,19 @@ footer .store_container {
         width: 28px;
     }
 
+    .block_wrapper {
+        padding: 55px 34px 105px 34px;
+    }
+
     .small_h2 {
         font-size: 80px;
-        padding-top: 55px;
-        padding-left: 34px;
     }
 
     .block_wrapper p {
         font-size: 24px;
         line-height: 1.17;
         letter-spacing: 1.2px;
-        padding: 20px 34px 105px 34px;
+        padding-top: 20px;
     }
 
     /* ---------------------footer-------------------------- */
@@ -653,17 +659,20 @@ footer .store_container {
         width: 28px;
     }
 
+    .block_wrapper {
+        box-sizing: border-box;
+        padding: 0px 9.5% 2.5% 6.67%;
+    }
+
     .small_h2 {
         font-size: 80px;
-        padding-top: 0px;
-        padding-left: 13.33%;
     }
 
     .block_wrapper p {
         font-size: 24px;
         line-height: 1.17;
         letter-spacing: 1.2px;
-        padding: 10% 19% 5% 13.33%;
+        padding-top: 5vw;
     }
 
     /* ---------------------footer-------------------------- */
