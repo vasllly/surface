@@ -6,6 +6,11 @@
     letter-spacing: 0.8px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /* ---------------------header-------------------------- */
 
 header::before {
@@ -523,6 +528,10 @@ footer .store_container {
         margin-bottom: 0px;
         display: flex;
         justify-content: center;
+    }
+
+    .store_botton:hover {
+        background-color: #7e42b0;
     }
 
     .store_botton:nth-child(2) {
