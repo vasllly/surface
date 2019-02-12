@@ -342,8 +342,6 @@ footer .store_container {
         height: 77px;
         border-radius: 40px;
         margin-bottom: 0px;
-        display: flex;
-        justify-content: center;
     }
 
     .store_botton:nth-child(n+2) {
@@ -537,8 +535,6 @@ footer .store_container {
         height: 77px;
         border-radius: 40px;
         margin-bottom: 0px;
-        display: flex;
-        justify-content: center;
     }
 
     .store_botton:hover {
