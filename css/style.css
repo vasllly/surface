@@ -95,7 +95,8 @@ h1 {
 }
 
 .athlets_head,
-.players_head {
+.players_head,
+.small_h2 {
     padding-top: 13px;
     padding-left: 20px;
     font-size: 50px;/* 80 */
