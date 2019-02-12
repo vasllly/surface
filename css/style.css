@@ -648,10 +648,9 @@ footer .store_container {
     }
 
     .heading_rectangle {
-        width: 8.75vw;
-        height: 8.75vw;
-        padding-top: 3.18vw;
-        padding-left: 3.65vw;
+        width: auto;
+        height: auto;
+        padding: 3.18vw 3.65vw;
         left: calc(50% - 4.37vw);
         margin-top: -77px;
         font-size: 24px;
@@ -659,6 +658,7 @@ footer .store_container {
 
     .heading_rectangle .rectangle {
         width: 28px;
+        margin-right: 0px;
     }
 
     .block_wrapper {
